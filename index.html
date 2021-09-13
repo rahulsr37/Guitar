@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>🎸 Create your own symphony 🎼</h1>
+    </div>
+
+    <div class="section">
+        <div class="circle">
+            <div class="inner_circle"></div>
+        </div>
+
+        <div class="strings">
+            <div class="1 string_length" id="string1" onmouseenter="play('./sounds/e(high).mp3')"></div>
+            <div class="2 string_length" id="string2" onmouseenter="play('./sounds/b.mp3')"></div>
+            <div class="3 string_length" id="string3" onmouseenter="play('./sounds/g.mp3')"></div>
+            <div class="4 string_length" id="string4" onmouseenter="play('./sounds/d.mp3')"></div>
+            <div class="5 string_length" id="string5" onmouseenter="play('./sounds/a.mp3')"></div>
+            <div class="6 string_length" id="string6" onmouseenter="play('./sounds/e(low).mp3')"></div>
+        </div>
+
+        <ul class="string_names">
+            <li>e</li>
+            <li>B</li>
+            <li>G</li>
+            <li>D</li>
+            <li>A</li>
+            <li>E</li>
+        </ul>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
